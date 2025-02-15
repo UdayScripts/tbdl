@@ -39,16 +39,15 @@ Let's make your video experience even better!
         buttons=[
             [
                 Button.url(
-                    "Website Source Code", url="https://github.com/r0ld3x/terabox-app"
+                    "UdayScripts", url="https://t.me/UdayScripts"
                 ),
                 Button.url(
-                    "Bot Source Code",
-                    url="https://github.com/r0ld3x/terabox-downloader-bot",
+                    "BotBlast",
+                    url="https://t.me/BotBlast",
                 ),
             ],
             [
-                Button.url("Channel ", url="https://t.me/DragoXServer"),
-                Button.url("Group ", url="https://t.me/DragoXServer"),
+                Button.url("Owner", url="https://t.me/uday_x"),
             ],
         ],
     )
@@ -137,12 +136,12 @@ async def start_token(m: Message):
     check_if = await is_user_on_chat(bot, FORCE_LINK, m.peer_id)
     if not check_if:
         return await m.reply(
-            "You haven't joined @RoldexVerse or @RoldexVerseChats yet. Please join the channel and then send me the link again.\nThank you!",
+            "You haven't joined @UdayScripts or @BotBlast yet. Please join the channel and then send me the link again.\nThank you!",
             buttons=[
                 [
-                    Button.url("RoldexVerse", url="https://t.me/DragoXServer"),
-                    Button.url("RoldexVerseChats",
-                               url="https://t.me/DragoXServer"),
+                    Button.url("UdayScripts", url="https://t.me/UdayScripts"),
+                    Button.url("BolBlast",
+                               url="https://t.me/BotBlast"),
                 ],
                 [
                     Button.url(
