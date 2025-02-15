@@ -54,13 +54,13 @@ class VideoSender:
 File Name: `{self.data['file_name']}`
 Size: **{self.data["size"]}**
 
-@RoldexVerse
+@UdayScripts
             """
         self.caption2 = f"""
 Downloading `{self.data['file_name']}`
 Size: **{self.data["size"]}**
 
-@RoldexVerse
+@UdayScripts
             """
 
     async def progress_bar(self, current_downloaded, total_downloaded, state="Sending"):
@@ -123,8 +123,8 @@ Size: **{self.data["size"]}**
                         ),
                     ],
                     [
-                        Button.url("Channel ", url="https://t.me/RoldexVerse"),
-                        Button.url("Group ", url="https://t.me/RoldexVerseChats"),
+                        Button.url("UdayScripts ", url="https://t.me/UdayScripts"),
+                        Button.url("BotBlast ", url="https://t.me/BotBlast"),
                     ],
                 ],
             )
@@ -193,9 +193,9 @@ Size: **{self.data["size"]}**
                                 ),
                             ],
                             [
-                                Button.url("Channel ", url="https://t.me/RoldexVerse"),
+                                Button.url("UdayScripts ", url="https://t.me/UdayScripts"),
                                 Button.url(
-                                    "Group ", url="https://t.me/RoldexVerseChats"
+                                    "BotBlast ", url="https://t.me/BotBlast"
                                 ),
                             ],
                         ],
@@ -352,8 +352,8 @@ Size: **{self.data["size"]}**
                         ),
                     ],
                     # [
-                    #     Button.url("Channel ", url="https://t.me/RoldexVerse"),
-                    #     Button.url("Group ", url="https://t.me/RoldexVerseChats"),
+                    #     Button.url("UdayScripts ", url="https://t.me/UdayScripts"),
+                    #     Button.url("BotBlast ", url="https://t.me/BotBlast"),
                     # ],
                 ],
                 parse_mode="markdown",
